@@ -3,104 +3,137 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Stylesheet & Script -->
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <title>FAQ accodion</title>
+
+    <title>FAQ Accordion</title>
   </head>
+
   <body>
-    <section class="section-accordion">
-      <div class="heading-box">
-        <img class="heading-icon" src="assets/images/icon-star.svg" alt="" />
-        <h1 class="heading-Primary">FAQs</h1>
-      </div>
-      <div class="accodion-box">
-        <div class="accodion-main-info-box">
-          <h2 class="accodion-title">
-            What is frontend Mentor, and how will it help me?
-          </h2>
-          <button id="accodion-btn " class="accodion-btn">
-            <img class="DOMimg plus" src="assets/images/icon-plus.svg" alt="" />
-            <img
-              class="DOMimg minus hidden"
-              src="assets/images/icon-minus.svg"
-              alt=""
-            />
-          </button>
+    <!-- Decorative background pattern -->
+    <div class="header-bg"></div>
+
+    <!-- Main content container -->
+    <main class="container">
+      <section
+        class="section-accordion"
+        aria-label="Frequently Asked Questions"
+      >
+        <!-- Heading Section -->
+        <div class="heading-box">
+          <img class="heading-icon" src="assets/images/icon-star.svg" alt="" />
+          <h1 class="heading-Primary">FAQs</h1>
         </div>
-        <div class="accodion-text">
-          Frontend Mentor offers realistic coding challenges to help developers
-          improve their Frontend coding skills with projects in HTML , CSS and
-          JavaScript . it's suitable for all levels and ideal for portfolio
-          building.
+
+        <!-- Accordion Items -->
+        <div class="accodion-box">
+          <article class="accodion-main-info-box">
+            <h2 class="accodion-title">
+              What is Frontend Mentor, and how will it help me?
+            </h2>
+            <button class="accodion-btn" aria-label="Toggle answer">
+              <img
+                class="DOMimg plus"
+                src="assets/images/icon-plus.svg"
+                alt=""
+              />
+              <img
+                class="DOMimg minus hidden"
+                src="assets/images/icon-minus.svg"
+                alt=""
+              />
+            </button>
+          </article>
+          <p class="accodion-text">
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.
+          </p>
         </div>
-      </div>
-      <div class="accodion-box">
-        <div class="accodion-main-info-box">
-          <h2 class="accodion-title">is Frontend Mentor Free?</h2>
-          <button id="accodion-btn " class="accodion-btn">
-            <img class="DOMimg plus" src="assets/images/icon-plus.svg" alt="" />
-            <img
-              class="DOMimg minus hidden"
-              src="assets/images/icon-minus.svg"
-              alt=""
-            />
-          </button>
+
+        <div class="accodion-box">
+          <article class="accodion-main-info-box">
+            <h2 class="accodion-title">Is Frontend Mentor free?</h2>
+            <button class="accodion-btn" aria-label="Toggle answer">
+              <img
+                class="DOMimg plus"
+                src="assets/images/icon-plus.svg"
+                alt=""
+              />
+              <img
+                class="DOMimg minus hidden"
+                src="assets/images/icon-minus.svg"
+                alt=""
+              />
+            </button>
+          </article>
+          <p class="accodion-text">
+            Yes, Frontend Mentor offers free and premium coding challenges. Free
+            challenges are great for practice, while premium ones help push your
+            skills even further.
+          </p>
         </div>
-        <div class="accodion-text">
-          Frontend Mentor offers realistic coding challenges to help developers
-          improve their Frontend coding skills with projects in HTML , CSS and
-          JavaScript . it's suitable for all levels and ideal for portfolio
-          building.
+
+        <div class="accodion-box">
+          <article class="accodion-main-info-box">
+            <h2 class="accodion-title">
+              Can I use Frontend Mentor projects in my portfolio?
+            </h2>
+            <button class="accodion-btn" aria-label="Toggle answer">
+              <img
+                class="DOMimg plus"
+                src="assets/images/icon-plus.svg"
+                alt=""
+              />
+              <img
+                class="DOMimg minus hidden"
+                src="assets/images/icon-minus.svg"
+                alt=""
+              />
+            </button>
+          </article>
+          <p class="accodion-text">
+            Absolutely! It’s encouraged. Just make sure to personalize and
+            explain your approach to show off your skills and problem-solving
+            abilities.
+          </p>
         </div>
-      </div>
-      <div class="accodion-box">
-        <div class="accodion-main-info-box">
-          <h2 class="accodion-title">
-            Can i use Frontend Mentor projects in myportfolio?
-          </h2>
-          <button id="accodion-btn " class="accodion-btn">
-            <img class="DOMimg plus" src="assets/images/icon-plus.svg" alt="" />
-            <img
-              class="DOMimg minus hidden"
-              src="assets/images/icon-minus.svg"
-              alt=""
-            />
-          </button>
+
+        <div class="accodion-box">
+          <article class="accodion-main-info-box">
+            <h2 class="accodion-title">
+              How can I get help if I’m stuck on a challenge?
+            </h2>
+            <button class="accodion-btn" aria-label="Toggle answer">
+              <img
+                class="DOMimg plus"
+                src="assets/images/icon-plus.svg"
+                alt=""
+              />
+              <img
+                class="DOMimg minus hidden"
+                src="assets/images/icon-minus.svg"
+                alt=""
+              />
+            </button>
+          </article>
+          <p class="accodion-text">
+            You can ask questions on the Frontend Mentor Discord community or
+            browse solutions submitted by others to learn different approaches.
+          </p>
         </div>
-        <div class="accodion-text">
-          Frontend Mentor offers realistic coding challenges to help developers
-          improve their Frontend coding skills with projects in HTML , CSS and
-          JavaScript . it's suitable for all levels and ideal for portfolio
-          building.
-        </div>
-      </div>
-      <div class="accodion-box">
-        <div class="accodion-main-info-box">
-          <h2 class="accodion-title">
-            How can i get help if i'im stuck on a challenge?
-          </h2>
-          <button id="accodion-btn " class="accodion-btn">
-            <img class="DOMimg plus" src="assets/images/icon-plus.svg" alt="" />
-            <img
-              class="DOMimg minus hidden"
-              src="assets/images/icon-minus.svg"
-              alt=""
-            />
-          </button>
-        </div>
-        <div class="accodion-text">
-          Frontend Mentor offers realistic coding challenges to help developers
-          improve their Frontend coding skills with projects in HTML , CSS and
-          JavaScript . it's suitable for all levels and ideal for portfolio
-          building.
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>

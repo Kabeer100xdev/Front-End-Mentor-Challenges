@@ -8,16 +8,24 @@
 html {
   font-size: 62.5%;
 }
+.header-bg {
+  background: url("/assets/images/background-pattern-desktop.svg");
+  height: 32rem;
+  width: 100%;
+}
 
 body {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-weight: 400;
   line-height: 1;
   background-color: #f9f0ff;
   font-family: "Work Sans", sans-serif;
+}
+.container {
+  /* height: 100vh; */
+  transform: translateY(-30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-accordion {
