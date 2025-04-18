@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Primary COlor :#F6D050 */
+html {
+  font-size: 62.5%;
+}
+
+.box-shadow {
+  box-shadow: 8px 8px 0 #000000;
+}
