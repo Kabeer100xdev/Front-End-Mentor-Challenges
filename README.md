@@ -10,7 +10,7 @@ Here are some of the challenges I’ve completed:
 1. **[Blog Product Card](https://meek-zuccutto-9901d3.netlify.app/)**  
    A simple responsive card with a QR code and some text.
 
-2. **[FAQ ccordion](https://idyllic-kataifi-b8fa25.netlify.app/)**  
+2. **[FAQ ccordion](https://preeminent-palmier-cd5ba6.netlify.app/)**  
    A dark-themed card layout challenge focused on flexbox/grid.
 
 3. **[Profile](https://stalwart-cocada-472def.netlify.app/)**  
